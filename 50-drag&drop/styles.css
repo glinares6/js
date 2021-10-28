@@ -1,0 +1,26 @@
+/* https://www.freecodecamp.org/espanol/news/centrar-en-html-div-con-css/ */
+body {
+    margin: 0;
+    background-color: #26ff0085;
+    font-family: sans-serif;
+  }
+  
+  .smile {
+    width: 50px;
+  }
+  
+  .drop-zone {
+    position: relative;
+    height: 100px;
+    border: 2px dotted black;
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  .ajust{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin: -7px -46px   ;
+  }
+

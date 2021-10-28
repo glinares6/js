@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notificación</title>
+</head>
+<body>
+    <button id="boton">pedir notificación</button>
+    <script>
+        const boton=document.querySelector('#boton')
+
+        boton.addEventListener('click',(e)=>{
+            
+            Notification.requestPermission()
+            .then(resultado =>{
+                console.log(`el resultado es ${resultado}`);
+                if(Notification.permission=='granted'){
+                    new Notification('esta es una notificación',{
+                        icon:'alerta.jpg',
+                        body: 'blah blah'
+                    })
+                }
+            })
+
+
+        })
+    </script>
+</body>
+</html>

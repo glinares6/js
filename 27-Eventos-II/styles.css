@@ -1,0 +1,23 @@
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-gap: 10px; //obsoleto */
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.gallery__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.red{
+    background: red;
+}
+
+.white{
+    background:white;
+}

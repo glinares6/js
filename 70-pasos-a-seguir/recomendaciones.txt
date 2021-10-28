@@ -1,0 +1,17 @@
+
+Que pasos seguir
+1)Practicar
+    la web desde cero
+    integración web con firebase
+    jetpack
+
+2)rfrontend
+    react
+
+
+3)backend
+    node
+
+
+4)fullstack js 
+    react-node

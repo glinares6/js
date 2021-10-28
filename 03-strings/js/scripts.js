@@ -75,6 +75,7 @@ console.log(cadena.length);
 
 // strings reference
 //     https://www.w3schools.com/jsref/jsref_obj_string.asp
+// https://dev.to/soyleninjs/6-formas-de-convertir-un-string-en-array-con-javascript-320n
 
 let nombre ='Juan';
 let apellido= 'Gomez';
